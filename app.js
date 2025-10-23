@@ -15,6 +15,7 @@ const allowedOrigins = [
   // 'http://localhost:3131', // Where??? (This was remaining from the old version)
   // 'http://localhost:5502',
   'https://weather-report-api-client.netlify.app', // Accept the access from the client on Netlify
+  'https://server-health-check.netlify.app', // Accept the access from Status Check application on Netlify
 ];
 
 const coreOptions = {

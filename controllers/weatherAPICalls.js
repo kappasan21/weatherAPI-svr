@@ -53,8 +53,6 @@ async function getWeatherData(req, res) {
     res.json({ result: [], msg: "Location data is require." });
   }
 
-  // lat = lat.slice(1);
-  // lon = lon.slice(1);
   console.log('Lat, Lon after slice: ', lat, lon);
 
   try {

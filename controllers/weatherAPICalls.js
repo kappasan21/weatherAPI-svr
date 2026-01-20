@@ -44,7 +44,7 @@ async function getLocationData(req, res) {
 async function getWeatherData(req, res) {
   // const { lat, lon } = req.location;
   let { lat, lon } = req.params;
-  console.log('Lat, Lon: ', lat, lon);
+  console.log('getWeatherData - Lat, Lon: ', lat, lon);
 
   // Input check
   if (!lat || !lon) {
